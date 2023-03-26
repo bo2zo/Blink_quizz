@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+ *{
+    font-family: 'Lato', sans-serif;
+
+ }
+
+body{
+    margin-top:0.5rem;
+    box-sizing:border-box;
+    height:100vh;
+    background-color: black;
+}
+.header{
+    display:flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.niveauxx{
+    margin-top: 0.8rem;
+    margin-right: 0.4rem;
+}
+
+.container{
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo{
+    margin-left: 1rem;
+}
+.btn{
+   background: black;
+   border-radius: 5%;
+}
+.q{
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background: url("https://media.pitchfork.com/photos/632893bb52d4bd45efccbb9b/3:2/w_1998,h_1332,c_limit/BLACKPINK-%20Born%20Pink.jpg");
+    background-position: center;
+}
+
+
+.r {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 21rem;
+    width: 14rem;
+    font-weight: bold;
+    
+}
+#r2, #r1, #r3, #r4{
+    color: #ebe6e6;
+    
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #f78da7;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    color: #f78da7;
+}
+.r:hover {
+    background-color: #f78da7;
+  }
+
+.les_niveaux{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.rep_debutant{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.rep_intermediaire{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.rep_avance{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
